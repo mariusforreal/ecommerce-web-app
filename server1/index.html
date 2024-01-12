@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-commerce Website</title>
+  <title>My test E-commerce Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,6 +17,7 @@
       padding: 20px;
       text-align: center;
       color: #fff;
+      position: relative;
     }
 
     h1 {
@@ -32,6 +33,12 @@
     section {
       padding: 40px;
       text-align: center;
+    }
+
+    .cta-buttons {
+      position: absolute;
+      top: 20px;
+      right: 20px;
     }
 
     .cta-button {
@@ -87,6 +94,11 @@
   <header>
     <h1>Welcome to My test E-commerce Website</h1>
     <p>Discover amazing products!</p>    
+    <!-- Add the login and signup buttons with proper links -->
+    <div class="cta-buttons">
+      <a href="login.html" class="cta-button">Login</a>
+      <a href="signup.html" class="cta-button">Signup</a>
+    </div>
   </header>
 
   <section>
@@ -109,9 +121,21 @@
       <p class="product-price">$39.99</p>
       <button class="cta-button">Add to Cart</button>
     </div>
+    <div class="product-card">
+      <img class="product-image" src="product4.jpeg" alt="Product 3">
+      <h3 class="product-name">Mobiles</h3>
+      <p class="product-price">$899.99</p>
+      <button class="cta-button">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img class="product-image" src="product5.jpeg" alt="Product 3">
+      <h3 class="product-name">Air pods</h3>
+      <p class="product-price">$399.99</p>
+      <button class="cta-button">Add to Cart</button>
+    </div>
  </section>
 
   <footer>
-    <p>&copy; 2023 E-commerce Website. All rights reserved.</p>
+    <p>&copy; 2023 Bluewave E-commerce Website. All rights reserved.</p>
   </footer>
 </body>
