@@ -37,6 +37,6 @@ Here are some helpful resources for understanding and implementing Elastic Load 
 - [Elastic Load Balancing Documentation](https://docs.aws.amazon.com/elasticloadbalancing/)
 - [Auto Scaling Documentation](https://docs.aws.amazon.com/autoscaling/)
 
-Note: Contact me at mariussongwa@outlook.com if you need help with high level design  documentation of VPC, Load balancer and Autoscaing etc!
+Note: Please reach out at mariussongwa@outlook.com if you need help with any related issues!
 
-Happy learning 😊
+Cheers 😊
